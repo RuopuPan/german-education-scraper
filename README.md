@@ -1,5 +1,12 @@
 # German Education Policy Scraper 🇩🇪
 
+**Author**: Ruopu (Anna) Pan  
+**Affiliation**: Temple University, B.S. in Early Childhood Education  
+**Languages**: Python · Chinese · English · German  
+**Use Case**: Comparative education research, curriculum policy tracking, multilingual data collection
+
+---
+
 This project is a beginner-friendly web scraper for collecting recent policy-related news from the official website of the German Federal Ministry of Education and Research (BMBF).
 
 该项目使用 Python 编写，自动抓取德国联邦教育与研究部（BMBF）官网的教育新闻标题和链接，并将结果保存为结构化 CSV 文件，适用于教育研究、课程改革追踪、语言数据分析等方向。
@@ -12,12 +19,3 @@ This project is a beginner-friendly web scraper for collecting recent policy-rel
 ## Requirements
 ```bash
 pip install requests beautifulsoup4 pandas
-```
-
-## Run
-```bash
-python multi_scraper.py
-```
-
-## Output
-Output file: `sample.csv`
